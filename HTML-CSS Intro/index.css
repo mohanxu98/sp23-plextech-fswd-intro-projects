@@ -44,5 +44,91 @@ p {
   width: 80px;
   background-color: blue;
 }
+.redExample2 {
+  width: 80px;
+  background-color: red;
+}
 
+.redExample4 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+  background-color: red;
+}
+
+.redsquare {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  align-self:center;
+  margin: auto;
+}
+.blueExample6 {
+  width: 100px;
+  background-color: blue;
+}
+
+.redExample6 {
+  display:flex;
+  flex: 1;
+  background-color:red;
+
+}
+
+.redExample62 {
+  display:flex;
+  flex: 1;
+  background-color:red;
+
+}
+
+.blueExample7 {
+  display: flex;
+  flex:1;
+  flex-direction:row-reverse;
+  background-color:blue;;
+  position:relative;
+}
+
+.transparent1 {
+  height: 20px; 
+  display: flex;
+  flex:1;
+  vertical-align: middle;
+  flex-direction: row-reverse;
+  background-color:transparent;
+  position: relative;
+}
+
+.row8yellow{
+  display:flex;
+  flex:1;
+  row-gap:10px;
+  justify-content:space-between;
+
+}
+
+.block{
+  display:flex;
+  background-color:orange;
+  width:120px;
+  position:relative;
+}
+
+.row9yellow{
+  display:flex;
+  flex:1;
+  row-gap:10px;
+  justify-content:space-between;
+  background-color:orange;
+
+}
+
+.block9{
+  display:flex;
+  background-color:green;
+  position:relative;
+  width:20px;
+  flex-shrink:3;
+}
 /* TODO: Add CSS for the rest of your solution below */

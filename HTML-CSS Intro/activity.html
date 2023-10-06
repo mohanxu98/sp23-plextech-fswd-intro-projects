@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <meta name="description" content="This is a basic test for html">
+        <meta name="author" content="Mohan Xu ">
+        <title>Intro Webpage</title>
+        <link rel="icon" href="./images/part1-finished-look">
+        <link rel="stylesheet" href="./activity.css">
     </head>
     <body>
+        <div class="head">
+            <p id="header">HEADER</p>
+            <p id="buttons" type = "button" onclick="changeToLight()">Light Mode</p>
+            <p id ="buttons" type = "button" onclick="changeToDark()">Dark Mode</p>
+
+            <script>
+                function changeToLight() {
+                    console.log("AOSDNOASND")
+                    document.body.style.backgroundColor = "white";
+                    let element = document.getElementById("changeable");
+                    element.style.backgroundColor = "light grey";
+                    element.style.color = "black";
+                    let element2 = document.getElementById("Article");
+                    element2.style.color = "black";
+
+                }
+
+                function changeToDark() {
+                    console.log("dark")
+                    document.body.style.backgroundColor = "black";
+                    let element = document.getElementById("changeable");
+                    element.style.backgroundColor = "grey";
+                    element.style.color = "white";
+                    let element2 = document.getElementById("Article");
+                    element2.style.color = "white";
+
+                }
+
+            </script>
+        
+        </div>
+        <div class = "page">
+        <div class="sidebar" id = "changeable">
+            <ul>About</ul>
+            <ul>Interest</ul>
+            <ul>Background</ul>
+        </div>
+        <div class="body", id = "changeable">
+            <div id = "Article">
+                Article
+            </div>
+            <div class="images">
+                <img src="banana.jpeg" alt="Italian Trulli">
+                <img src="bean.webp" alt="Girl in a jacket">
+                <img src="dice.jpeg" alt="Flowers in Chania">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class = "footer">
+            <p>Author: Mohan Xu</p>
+            <P>Created on 10/2/2023</P>
+        </div>
+        
         
     </body>
 </html>
